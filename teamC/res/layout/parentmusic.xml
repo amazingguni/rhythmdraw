@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parent_music_bg_layout"
+	android:orientation="horizontal"
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"
+	android:background="#FFFFFF">	
+	
+    	
+        	
+			<ListView
+        		android:id="@+id/parent_rhythm_addlist"
+        		android:layout_height="fill_parent"
+        		android:layout_width="200dip"     		
+        		android:layout_alignParentLeft="true"
+        		android:padding="5dip"        		        		        		
+        		android:scrollbarSize="0px"
+        		android:divider="#d0c0a8"
+        		android:dividerHeight="3px"
+        		/>         
+        		
+        		<ListView
+        		android:id="@+id/parent_rhythm_addedlist"        			
+        		android:layout_height="fill_parent"
+        		android:layout_width="200dip"
+        		android:padding="5dip"	        		
+        		android:scrollbarSize="0px"
+        		android:divider="#d0c0a8"
+        		android:dividerHeight="3px"
+        		/>       
+        			
+		
+		
+		</LinearLayout>	  	  
